@@ -1,0 +1,12 @@
+import React from 'react';
+import { FiFaceBook, FiTwitter, FiInstagram } from 'react-icons/fi';
+import { FooterOverlay, footerOverlay, Newsletter } from '../../components';
+import './Footer.css';
+
+const Footer = () => (
+  <div className='app__footer section__padding'>
+< FooterOverlay
+>  </div>
+);
+
+export default Footer;
